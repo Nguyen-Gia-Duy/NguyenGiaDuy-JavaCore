@@ -9,19 +9,20 @@ package lab04;
  * @author DELL
  */
 public class ChuViDienTichHCN {
+
     public static void main(String[] args) {
         //SU dung constructor khing co tham so
-        
-        HinhChuNhat hCN1=new HinhChuNhat();
+
+        HinhChuNhat hCN1 = new HinhChuNhat();
         hCN1.nhap();
         hCN1.xuat();
-        
+
         System.out.println("----------------");
         //Su dung constructor co tham so 
-        HinhChuNhat hCN2=new HinhChuNhat(10,20);
+        HinhChuNhat hCN2 = new HinhChuNhat(10, 20);
         hCN2.xuat();
-         System.out.println("----------------");
-         hCN2.setChieuDai(100);
-         hCN2.xuat();
+        System.out.println("----------------");
+        hCN2.setChieuDai(100);
+        hCN2.xuat();
     }
 }
